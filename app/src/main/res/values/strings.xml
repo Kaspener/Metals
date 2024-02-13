@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MetalsWidget</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="null_element">NULL</string>
+    <string name="gold_metal">Золото</string>
+    <string name="metal">Металл</string>
+    <string name="buyPrice">Цена покупки</string>
+    <string name="sellPrice">Цена продажи</string>
+</resources>

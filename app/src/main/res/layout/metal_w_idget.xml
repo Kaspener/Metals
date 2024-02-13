@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_layout"
+    style="@style/Widget.MetalsWidget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue_200"
+    android:theme="@style/Theme.MetalsWidget.AppWidgetContainer">
+
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/date"
+        android:text="Дата:"
+        android:textColor="#1B1A1A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Дата"
+        android:textColor="#1B1A1A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/goldName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Золото"
+        android:textColor="#1B1A1A"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/buyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goldName"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/buyPrice"
+        android:text="Купить:"
+        android:textColor="#1B1A1A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/buyPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goldName"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:text="Цена покупки"
+        android:textAllCaps="false"
+        android:textColor="#1B1A1A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sellView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buyView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/sellPrice"
+        android:text="Продать:"
+        android:textColor="#1B1A1A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sellPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buyPrice"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:text="Цена продажи"
+        android:textColor="#1B1A1A"
+        android:textSize="20sp" />
+
+</RelativeLayout>
